@@ -1,0 +1,22 @@
+version: 4.0.78
+steps:
+  - prompt: Enter a custom amount in the "Other" field.
+    commands:
+      - command: hover-text
+        text: Other
+        description: label for the custom amount field
+        action: click
+      - command: type
+        text: 5000
+  - prompt: Click on the "Next" button.
+    commands:
+      - command: hover-text
+        text: Next
+        description: button to proceed to the next step
+        action: click
+  - prompt: >-
+      Assert that the input is accepted and there are no errors.  # Use the
+      content of the file from the environment
+    commands:
+      - command: assert
+        expect: the input is accepted and there are no errors
