@@ -1,0 +1,66 @@
+version: 4.0.78
+steps:
+  - prompt: Click on the "Sign In" link.
+    commands:
+      - command: hover-text
+        text: Sign In
+        description: link in the header
+        action: click
+  - prompt: Assert that the sign-in page loads.
+    commands:
+      - command: assert
+        expect: the sign-in page is displayed with "Sign In" text
+  - prompt: Attempt to log in with test credentials.
+    commands:
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: test@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: testpassword
+      - command: hover-text
+        text: Sign In
+        description: sign in button
+        action: click
+  - prompt: Attempt to log in with test credentials.
+    commands:
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: test@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: testpassword
+      - command: hover-text
+        text: Sign In
+        description: sign in button
+        action: click
+  - prompt: Attempt to log in with test credentials.
+    commands:
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: correct@example.com
+      - command: hover-text
+        text: Password
+        description: password input field
+        action: click
+      - command: type
+        text: correctpassword
+      - command: hover-text
+        text: Sign In
+        description: sign in button
+        action: click
