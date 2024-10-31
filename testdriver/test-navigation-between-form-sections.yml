@@ -1,0 +1,20 @@
+version: 4.0.78
+steps:
+  - prompt: Click on "Owner Info" in the sidebar.
+    commands:
+      - command: hover-text
+        text: Owner Info
+        description: link in the sidebar
+        action: click
+  - prompt: Click on "Owner Info" in the sidebar.
+    commands:
+      - command: hover-text
+        text: Owner Info
+        description: link in the sidebar
+        action: click
+  - prompt: Click on "Owner Info" in the sidebar.
+    commands:
+      - command: hover-text
+        text: Owner Info
+        description: link in the sidebar
+        action: click
