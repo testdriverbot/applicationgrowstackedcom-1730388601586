@@ -1,0 +1,64 @@
+version: 4.0.78
+steps:
+  - prompt: Click on each loan approval amount option.
+    commands:
+      - command: hover-text
+        text: $15k
+        description: loan approval amount option
+        action: click
+  - prompt: Click on each loan approval amount option.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: $25k
+        description: loan approval amount option
+        action: click
+      - command: hover-text
+        text: $50k
+        description: loan approval amount option
+        action: click
+      - command: hover-text
+        text: $100k
+        description: loan approval amount option
+        action: click
+      - command: hover-text
+        text: $250k
+        description: loan approval amount option
+        action: click
+      - command: hover-text
+        text: $500k
+        description: loan approval amount option
+        action: click
+      - command: hover-text
+        text: $1M
+        description: loan approval amount option
+        action: click
+  - prompt: Click on each loan approval amount option.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: $25k
+        description: loan approval amount option
+        action: click
+      - command: hover-text
+        text: $50k
+        description: loan approval amount option
+        action: click
+      - command: hover-text
+        text: $100k
+        description: loan approval amount option
+        action: click
+      - command: hover-text
+        text: $250k
+        description: loan approval amount option
+        action: click
+      - command: hover-text
+        text: $500k
+        description: loan approval amount option
+        action: click
+      - command: hover-text
+        text: $1M
+        description: loan approval amount option
+        action: click
